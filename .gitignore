@@ -1,0 +1,43 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Python environments, bytecode, and test caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local application data and uploaded media
+backend/instance/
+backend/uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
